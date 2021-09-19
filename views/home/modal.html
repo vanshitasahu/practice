@@ -1,0 +1,56 @@
+<div id="addModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             
+            <form action="/home/index" method="post">
+            <div class="modal-header">
+
+
+                <h4>Add New Employee</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input name="full_name" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" name="email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <textarea class="form-control" name="address" ></textarea>
+                </div>
+                <div class="form-group">
+                    <label>City</label>
+                    <select class="form-control" name="city">
+                        <option>Select</option>
+                        <option>Indore</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Bhopal</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <Br />
+                    Male <input type="radio" value="male" name="gender" />
+                    Female <input type="radio" value="female" name="gender"/>
+                </div>
+                <div class="form-group">
+                    <label>Contact</label>
+                    <input type="text" class="form-control" name="contact" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                <button class="btn btn-success" type="submit">Add</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+    </body>
